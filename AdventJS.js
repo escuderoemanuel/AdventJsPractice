@@ -34,6 +34,11 @@ function wrapping(gifts) {
   });
 }
 
+const gifts = ['cat', 'game', 'socks'];
+const wrapped = wrapping(gifts);
+
+// ? console.log(wrapped);
+
 // * Option 2
 function wrapping(gifts) {
   return gifts.map((gift) => {
