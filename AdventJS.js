@@ -51,3 +51,12 @@ function wrapping(gifts) {
     );
   });
 }
+
+// * Option 3
+function wrapping(gifts) {
+  return gifts.map(gift => {
+    const op = "*".repeat(gift.length+ 2) + "\n*" + gift + "*\n" + 
+    "*".repeat(gift.length + 2)
+    return op
+  })
+}
